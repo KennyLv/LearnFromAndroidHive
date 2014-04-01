@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PlayerScreenOrientationActivity"
+    android:background="#330000">
+    
+    <TextView
+        android:id="@+id/player_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world_land" 
+        android:textColor="#33CC00" 
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <ImageView
+        android:id="@+id/player_art"
+        android:layout_width="300dip"
+        android:layout_height="300dip"
+	    android:layout_below="@id/player_title"/>
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="100dip"
+	    android:paddingTop="120dip">
+	 
+		<ImageButton
+			android:id="@+id/player_btnPlay"
+			android:src="@drawable/player_button_play"
+			android:layout_width="52dip"
+			android:layout_height="52dip"
+		android:background="#ffffff"/> 
+                
+	</LinearLayout>
+	
+</RelativeLayout>

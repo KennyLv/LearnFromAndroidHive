@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+
+    <item>
+        <phone_number>12365024654</phone_number>
+        <name>Margherita</name>
+        <price>155</price>
+        <description>
+			Single cheese topping
+        </description>
+    </item>
+
+    <item>
+        <phone_number>22134355646</phone_number>
+        <name>Double Cheese Margherita</name>
+        <price>225</price>
+        <description>
+			Loaded with Extra Cheese        </description>
+    </item>
+
+    <item>
+        <phone_number>23234343</phone_number>
+        <name>Fresh Veggie</name>
+        <price>110</price>
+        <description>
+			Oninon and Crisp capsicum        </description>
+    </item>
+
+    <item>
+        <phone_number>346546544</phone_number>
+        <name>Peppy Paneer</name>
+        <price>155</price>
+        <description>
+			Paneer, Crisp capsicum and Red pepper        </description>
+    </item>
+
+    <item>
+        <phone_number>324353455</phone_number>
+        <name>Mexican Green Wave</name>
+        <price>445</price>
+        <description>
+				Onion, Crip capsicum, Tomato with mexican herb
+        </description>
+    </item>
+
+</items>
