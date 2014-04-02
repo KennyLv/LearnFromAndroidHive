@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ 	
+    <!-- 
+    <ImageView
+        android:id="@+id/gridview_detail_img_display"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/grid_view_detail_img_des" /> -->
+
+	<com.androidhive.utils.TouchImageView
+        android:id="@+id/gridview_detail_img_display"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/grid_view_detail_img_des" />
+ 
+    <Button
+        android:id="@+id/gridview_detail_btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:background="@drawable/grid_view_detail_but_background"
+        android:textColor="#ffffff"
+        android:text="@string/grid_view_detail_but_close" />
+ 
+</RelativeLayout>

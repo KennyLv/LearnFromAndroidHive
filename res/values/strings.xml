@@ -28,5 +28,15 @@
     <string name="spinner_category">Category:</string>
     <string name="spinner_title">Select Category</string>
     <string name="title_activity_gpsdemo">GPSDemoActivity</string>
+    <string name="title_activity_list_view_filter">ListViewFilterActivity</string>
+    <string name="list_view_filter_txt">Search products...</string>
+    <string name="title_activity_tab_host">TabHostActivity</string>
+    <string name="title_activity_expandable_list_view">ExpandableListViewActivity</string>
+    <string name="title_activity_grid_view_demo">GridViewDemoActivity</string>
+    <string name="title_activity_grid_view_demo_detail">GridViewDemoDetailActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="grid_view_detail_but_close">Close</string>
+    <string name="grid_view_detail_img_des">Dispaly image in full screen ...</string>
 
 </resources>

@@ -89,8 +89,8 @@ public class ListViewCustomActivity extends ListActivity {
 			public void onItemClick(AdapterView<?> parent, View view,  int position, long id) {
 				// TODO Auto-generated method stub
 				
-				Intent player = new Intent(ListViewCustomActivity.this, PlayerScreenVideoActivity.class);
-				//Intent player = new Intent(ListViewCustomActivity.this, PlayerScreenOrientationActivity.class);
+				//Intent player = new Intent(ListViewCustomActivity.this, PlayerScreenVideoActivity.class);
+				Intent player = new Intent(ListViewCustomActivity.this, PlayerScreenOrientationActivity.class);
 				HashMap<String, String> songInfo = songsList.get(position);
 				player.putExtra(KEY_ID, songInfo.get(KEY_ID));
 				player.putExtra(KEY_TITLE, songInfo.get(KEY_TITLE));

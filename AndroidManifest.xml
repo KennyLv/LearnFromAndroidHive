@@ -3,12 +3,11 @@
     package="com.fromandroidhive.androidlearn"
     android:versionCode="1"
     android:versionName="1.0" >
-    
-    
+
     <!-- Internet Permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- Network State Permissions -->
-	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <!-- Provider gps requires ACCESS_FINE_LOCATION permission -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
@@ -38,7 +37,7 @@
             android:label="@string/title_activity_view_pager_page_1" >
         </activity>
         <activity
-            android:name="com.fromandroicom.androidhive.ui.ViewPagerPage_2Activity"
+            android:name="com.androidhive.ui.ViewPagerPage_2Activity"
             android:label="@string/title_activity_view_pager_page_2" >
         </activity>
         <activity
@@ -80,11 +79,36 @@
         <activity
             android:name="com.androidhive.fun.NetworkStatusGPSDemoActivity"
             android:label="@string/title_activity_gpsdemo" >
+        </activity>
+        <activity
+            android:name="com.androidhive.ui.ListViewFilterActivity"
+            android:label="@string/title_activity_list_view_filter"
+            android:windowSoftInputMode="stateHidden" >
+
+            <!-- stop the keyboard when EditText focused when load -->
+        </activity>
+        <activity
+            android:name="com.androidhive.ui.TabHostActivity"
+            android:label="@string/title_activity_tab_host" >
+        </activity>
+        <activity
+            android:name="com.androidhive.ui.ExpandableListViewActivity"
+            android:label="@string/title_activity_expandable_list_view" >
+        </activity>
+        <activity
+            android:name="com.androidhive.ui.GridViewDemoActivity"
+            android:label="@string/title_activity_grid_view_demo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.androidhive.ui.GridViewDemoDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_grid_view_demo_detail"
+            android:theme="@style/FullscreenTheme" >
         </activity>
     </application>
 
