@@ -29,7 +29,6 @@ public class GifViewDemoActivity extends Activity {
 			public void onClick(View v) {
 				gf1.showAnimation();
 			}
-			
 		}); 
 		// 设置显示的大小，拉伸或者压缩  
 		gf1.setShowDimension(290, 278); 
@@ -42,6 +41,4 @@ public class GifViewDemoActivity extends Activity {
 		gf1.setGifImageType(GifImageType.COVER);
 		gf1.showCover();
 	}
-
-
 }
