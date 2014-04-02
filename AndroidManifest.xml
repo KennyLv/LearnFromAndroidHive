@@ -98,17 +98,21 @@
         <activity
             android:name="com.androidhive.ui.GridViewDemoActivity"
             android:label="@string/title_activity_grid_view_demo" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.androidhive.ui.GridViewDemoDetailActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_grid_view_demo_detail"
             android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.androidhive.ui.GifViewDemoActivity"
+            android:label="@string/title_activity_gif_view_demo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

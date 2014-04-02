@@ -38,5 +38,6 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="grid_view_detail_but_close">Close</string>
     <string name="grid_view_detail_img_des">Dispaly image in full screen ...</string>
+    <string name="title_activity_gif_view_demo">GifViewDemoActivity</string>
 
 </resources>

@@ -1,4 +1,4 @@
-package com.androidhive.ui;
+package com.androidhive.utils;
 
 import java.io.IOException;
 import java.io.StringReader;
