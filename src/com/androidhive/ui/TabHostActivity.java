@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
+import com.androidhive.ui.options.ViewPagerPage_0Activity;
+import com.androidhive.ui.options.ViewPagerPage_1Activity;
+import com.androidhive.ui.options.ViewPagerPage_2Activity;
 import com.fromandroidhive.androidlearn.R;
 
 @SuppressWarnings("deprecation")

@@ -1,4 +1,4 @@
-package com.androidhive.ui;
+package com.androidhive.ui.options;
 
 import android.app.Activity;
 import android.os.Bundle;

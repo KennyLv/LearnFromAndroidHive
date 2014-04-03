@@ -29,15 +29,15 @@
             android:label="@string/title_activity_view_pager" >
         </activity>
         <activity
-            android:name="com.androidhive.ui.ViewPagerPage_0Activity"
+            android:name="com.androidhive.ui.options.ViewPagerPage_0Activity"
             android:label="@string/title_activity_view_pager_page_0" >
         </activity>
         <activity
-            android:name="com.androidhive.ui.ViewPagerPage_1Activity"
+            android:name="com.androidhive.ui.options.ViewPagerPage_1ActivityActivity"
             android:label="@string/title_activity_view_pager_page_1" >
         </activity>
         <activity
-            android:name="com.androidhive.ui.ViewPagerPage_2Activity"
+            android:name="com.androidhive.ui.options.ViewPagerPage_2Activity"
             android:label="@string/title_activity_view_pager_page_2" >
         </activity>
         <activity
@@ -108,6 +108,10 @@
         <activity
             android:name="com.androidhive.ui.GifViewDemoActivity"
             android:label="@string/title_activity_gif_view_demo" >
+        </activity>
+        <activity
+            android:name="com.androidhive.ui.NavigationDrawerActivity"
+            android:label="@string/title_activity_navigation_drawer" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

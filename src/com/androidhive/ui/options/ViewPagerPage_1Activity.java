@@ -1,16 +1,16 @@
-package com.androidhive.ui;
+package com.androidhive.ui.options;
 
 import android.app.Activity;
 import android.os.Bundle;
 
 import com.fromandroidhive.androidlearn.R;
 
-public class ViewPagerPage_2Activity extends Activity {
+public class ViewPagerPage_1Activity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_view_pager_page_2);
+		setContentView(R.layout.activity_view_pager_page_1);
 	}
 
 }
