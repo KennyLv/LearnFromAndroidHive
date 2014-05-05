@@ -7,7 +7,7 @@ import android.view.View.OnClickListener;
 
 import com.ant.liao.GifView;
 import com.ant.liao.GifView.GifImageType;
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 public class GifViewDemoActivity extends Activity {
 	GifView gf1 ;

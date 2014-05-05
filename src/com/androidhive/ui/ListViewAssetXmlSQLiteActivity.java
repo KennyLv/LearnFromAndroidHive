@@ -21,7 +21,7 @@ import android.widget.SimpleAdapter;
 import com.androidhive.utils.DatabaseHandler;
 import com.androidhive.utils.DatabaseHandlerTestModel;
 import com.androidhive.utils.XMLParser;
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 public class ListViewAssetXmlSQLiteActivity extends ListActivity {
 	// All static variables

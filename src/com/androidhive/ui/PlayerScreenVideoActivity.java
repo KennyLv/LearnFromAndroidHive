@@ -16,7 +16,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 public class PlayerScreenVideoActivity extends Activity {
 	MediaPlayer mp;

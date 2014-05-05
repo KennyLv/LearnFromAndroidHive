@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 public class TextToSpeechDemoActivity extends Activity implements TextToSpeech.OnInitListener {
 	private String text = "I developed a simple interface with one input field and a button to trigger a event that will take text from input field and speaks out.";

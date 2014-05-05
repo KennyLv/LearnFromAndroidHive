@@ -19,7 +19,7 @@ import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
 import android.widget.TextView;
 
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 public class ExpandableListViewActivity extends Activity {
 	ExpandableListAdapter listAdapter;

@@ -14,7 +14,7 @@ import java.util.WeakHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 import android.app.Activity;
 import android.content.Context;

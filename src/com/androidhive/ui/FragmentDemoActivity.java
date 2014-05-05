@@ -16,7 +16,7 @@ import android.widget.ListView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 public class FragmentDemoActivity extends Activity {
 	public static String[] array = { "text1", "text2", "text3", "text4", "text5", "text6", "text7", "text8" };

@@ -21,7 +21,7 @@ import android.widget.RelativeLayout;
 
 import com.androidhive.utils.GridViewDemoHelper;
 import com.androidhive.utils.TouchImageView;
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 public class GridViewDemoDetailActivity extends Activity {
 	GridViewDemoHelper utils;

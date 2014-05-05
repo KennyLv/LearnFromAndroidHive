@@ -1,6 +1,6 @@
 package com.androidhive.ui.options;
 
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 import android.annotation.SuppressLint;
 import android.app.Fragment;

@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import com.androidhive.utils.ConnectionDetector;
 import com.androidhive.utils.GPSTracker;
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 public class NetworkStatusGPSDemoActivity extends Activity {
 	Button btnShowLocation;

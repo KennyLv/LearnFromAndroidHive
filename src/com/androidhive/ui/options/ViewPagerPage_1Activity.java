@@ -3,7 +3,7 @@ package com.androidhive.ui.options;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 public class ViewPagerPage_1Activity extends Activity {
 

@@ -17,7 +17,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 @SuppressLint("NewApi")
 public class TabControlActivity extends FragmentActivity implements TabListener {

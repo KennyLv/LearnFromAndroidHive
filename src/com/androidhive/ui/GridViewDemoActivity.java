@@ -24,7 +24,7 @@ import android.widget.ImageView;
 
 import com.androidhive.utils.GridViewDemoAppConstant;
 import com.androidhive.utils.GridViewDemoHelper;
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 public class GridViewDemoActivity extends Activity {
 	private GridViewDemoHelper utils;

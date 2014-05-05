@@ -20,7 +20,7 @@ import android.widget.ListAdapter;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import com.androidhive.utils.HTTPServiceHandler;
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 public class ListViewHttpJsonActivity extends ListActivity {
 	private ProgressDialog pDialog;

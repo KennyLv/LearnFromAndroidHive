@@ -27,7 +27,7 @@ import android.widget.TextView;
 import com.androidhive.ui.options.NavHomeFragment;
 import com.androidhive.ui.options.NavHotFragment;
 import com.androidhive.ui.options.NavPhotoFragment;
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 public class NavigationDrawerActivity extends Activity {
 	private DrawerLayout mDrawerLayout;

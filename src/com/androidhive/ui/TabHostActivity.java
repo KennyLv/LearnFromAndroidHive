@@ -9,7 +9,7 @@ import android.widget.TabHost.TabSpec;
 import com.androidhive.ui.options.ViewPagerPage_0Activity;
 import com.androidhive.ui.options.ViewPagerPage_1Activity;
 import com.androidhive.ui.options.ViewPagerPage_2Activity;
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 @SuppressWarnings("deprecation")
 public class TabHostActivity extends TabActivity {

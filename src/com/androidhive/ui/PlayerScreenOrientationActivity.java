@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.androidhive.utils.ImageLoader;
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 public class PlayerScreenOrientationActivity extends Activity {
 	MediaPlayer mp;

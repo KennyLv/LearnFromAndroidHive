@@ -26,7 +26,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.androidhive.utils.XMLParser;
-import com.fromandroidhive.androidlearn.R;
+import com.androidhive.androidlearn.R;
 
 public class ListViewLoadMoreActivity extends ListActivity {
 
