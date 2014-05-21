@@ -65,5 +65,7 @@
     <string name="title_activity_broadcast">BroadcastActivity</string>
     <string name="title_activity_blue_tooth">BlueToothActivity</string>
     <string name="bluetooth">Bluetooth test!</string>
-    
+    <string name="title_activity_content_provider">ContentProviderActivity</string>
+    <string name="contentrefresh">Refresh</string>
+
 </resources>
