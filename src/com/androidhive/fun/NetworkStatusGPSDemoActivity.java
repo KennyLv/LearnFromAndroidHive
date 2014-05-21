@@ -31,7 +31,6 @@ public class NetworkStatusGPSDemoActivity extends Activity {
 		setContentView(R.layout.activity_gpsdemo);
 
 		btnShowLocation = (Button) findViewById(R.id.gps_but_getlocation);
-		resetLocation = (Button) findViewById(R.id.gps_but_reset);
 		checkNetwork = (Button) findViewById(R.id.network_check_but);
 
 		gps = new GPSTracker(NetworkStatusGPSDemoActivity.this);
@@ -41,25 +40,16 @@ public class NetworkStatusGPSDemoActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 
-				if (gps.canGetLocation()) { // gps enabled} // return boolean
-											// true/false
+				if (gps.canGetLocation()) {
 					double latitude = gps.getLatitude();
 					double longitude = gps.getLongitude();
 					Toast.makeText(
 							getApplicationContext(),
-							"Your Location is - \nLat: " + latitude
-									+ "\nLong: " + longitude, Toast.LENGTH_LONG)
-							.show();
+							"Your Location is - \nLat: " + latitude + "\nLong: " + longitude, Toast.LENGTH_LONG
+					).show();
 				} else {
 					gps.showSettingsAlert();
 				}
-			}
-		});
-
-		resetLocation.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				gps.stopUsingGPS();
 			}
 		});
 
@@ -86,6 +76,19 @@ public class NetworkStatusGPSDemoActivity extends Activity {
 		});
 
 	}
+	
+	  @Override
+      protected void onResume() {
+            super.onResume();
+            gps.registerLocationUpdates();
+			gps.getLocation();
+	  }
+	  
+	  @Override
+      protected void onPause() {
+            super.onResume();
+            gps.stopUsingGPS();
+	  }
 
 	/**
 	 * Function to display simple Alert Dialog

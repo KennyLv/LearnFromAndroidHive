@@ -63,5 +63,7 @@
     <string name="nav_drawer_desc_list_item_icon">Item Icon</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_broadcast">BroadcastActivity</string>
-
+    <string name="title_activity_blue_tooth">BlueToothActivity</string>
+    <string name="bluetooth">Bluetooth test!</string>
+    
 </resources>

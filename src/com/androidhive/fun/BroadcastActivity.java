@@ -69,7 +69,7 @@ public class BroadcastActivity extends Activity {
 
 		counterText = (TextView) findViewById(R.id.broadcast_countertxt);
 		Intent bindIntent = new Intent(BroadcastActivity.this, CounterService.class);  
-        bindService(bindIntent, serviceConnection, Context.BIND_AUTO_CREATE);  
+        bindService(bindIntent, serviceConnection, Context.BIND_AUTO_CREATE);
       
         Log.i(LOG_TAG, "Broadcast Activity onCreate.");
 	}
@@ -78,14 +78,14 @@ public class BroadcastActivity extends Activity {
      public void onResume() {  
          super.onResume();
          IntentFilter counterActionFilter = new IntentFilter(CounterService.BROADCAST_COUNTER_ACTION); 
-         registerReceiver(counterActionReceiver, counterActionFilter);
+         registerReceiver(counterBroadcastReceiver, counterActionFilter);
          Log.i(LOG_TAG, "Broadcast Activity onResume.");
      }  
    
      @Override  
      public void onPause() {  
          super.onPause();  
-         unregisterReceiver(counterActionReceiver);  
+         unregisterReceiver(counterBroadcastReceiver);  
          Log.i(LOG_TAG, "Broadcast Activity onPause.");
      }  
    
@@ -96,7 +96,7 @@ public class BroadcastActivity extends Activity {
          Log.i(LOG_TAG, "Broadcast Activity onDestroy.");
      }  
    
-     private BroadcastReceiver counterActionReceiver = new BroadcastReceiver(){  
+     private BroadcastReceiver counterBroadcastReceiver = new BroadcastReceiver(){  
 		@Override
 		public void onReceive(Context context, Intent intent) {
 			 int counter = intent.getIntExtra(CounterService.COUNTER_VALUE, 0);  
@@ -110,7 +110,7 @@ public class BroadcastActivity extends Activity {
      private ServiceConnection serviceConnection = new ServiceConnection() { 
 		@Override
 		public void onServiceConnected(ComponentName className, IBinder service) {
-			counterService = ((CounterService.CounterBinder)service).getService();
+			counterService = ((CounterService.CounterServiceBinder)service).getService();
 			Log.i(LOG_TAG, "Counter Service Connected");  
 		}
 

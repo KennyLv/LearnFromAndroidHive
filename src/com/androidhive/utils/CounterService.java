@@ -18,11 +18,17 @@ public class CounterService extends Service implements ICounterService {
 	private boolean isStop = true;
 	private Integer lastVal;
 
-	private final IBinder binder = new CounterBinder();
-	public class CounterBinder extends Binder {
+	private final IBinder binder = new CounterServiceBinder();
+	
+	public class CounterServiceBinder extends Binder {
 		public CounterService getService() {
 			return CounterService.this;
 		}
+	}
+
+	@Override
+	public IBinder onBind(Intent arg0) {
+		return binder;
 	}
 	
 	@Override
@@ -82,11 +88,6 @@ public class CounterService extends Service implements ICounterService {
 	@Override
 	public boolean isStopped(){
 		return isStop;
-	}
-
-	@Override
-	public IBinder onBind(Intent arg0) {
-		return binder;
 	}
 
 	@Override

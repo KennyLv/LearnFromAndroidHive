@@ -16,21 +16,13 @@
         android:layout_marginTop="26dp"
         android:text="Get Location" />
 
-    <Button
-        android:id="@+id/gps_but_reset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="50dip"
-        android:layout_below="@+id/gps_but_getlocation"
-        android:layout_centerHorizontal="true"
-        android:text="Clear Location" />
     
     <Button
         android:id="@+id/network_check_but"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="50dip"
-        android:layout_below="@+id/gps_but_reset"
+        android:layout_below="@+id/gps_but_getlocation"
         android:layout_centerHorizontal="true"
         android:text="Check Network" />
 

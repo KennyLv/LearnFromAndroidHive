@@ -10,7 +10,11 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <!-- Provider gps requires ACCESS_FINE_LOCATION permission -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- get BlueTooth -->
+	<uses-permission android:name="android.permission.BLUETOOTH" />  
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
@@ -84,7 +88,6 @@
             android:name="com.androidhive.ui.ListViewFilterActivity"
             android:label="@string/title_activity_list_view_filter"
             android:windowSoftInputMode="stateHidden" >
-
             <!-- stop the keyboard when EditText focused when load -->
         </activity>
         <activity
@@ -116,17 +119,22 @@
         <activity
             android:name="com.androidhive.fun.BroadcastActivity"
             android:label="@string/title_activity_broadcast" >
+        </activity>
+        <activity
+            android:name="com.androidhive.fun.BlueToothActivity"
+            android:label="@string/title_activity_blue_tooth" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
 
         <service
             android:name="com.androidhive.utils.CounterService"
             android:enabled="true" >
         </service>
+        
     </application>
-
 </manifest>
