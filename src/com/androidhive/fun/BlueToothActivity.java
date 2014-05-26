@@ -43,8 +43,6 @@ public class BlueToothActivity extends Activity {
 		Intent discoverableIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_DISCOVERABLE);  
 		discoverableIntent.putExtra(BluetoothAdapter.EXTRA_DISCOVERABLE_DURATION, 300);//设置持续时间（最多300秒）
 		*/
-		
-
         LayoutInflater inflater = (LayoutInflater)BlueToothActivity.this.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
         thisLayout = (LinearLayout) inflater.inflate(R.layout.activity_blue_tooth, null);
 	}
