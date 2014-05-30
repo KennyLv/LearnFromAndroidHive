@@ -67,5 +67,8 @@
     <string name="bluetooth">Bluetooth test!</string>
     <string name="title_activity_content_provider">ContentProviderActivity</string>
     <string name="contentrefresh">Refresh</string>
-
+    
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="btn_sendnotification">Send Notification</string>
+    <string name="btn_cancelnotification">Cancel Notification</string>
 </resources>
